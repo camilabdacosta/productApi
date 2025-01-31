@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class ViewController {
+public class ProdutoViewController {
     @Autowired
     private ProdutoService produtoService;
 
