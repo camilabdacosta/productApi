@@ -1,4 +1,4 @@
-package com.produtos.xp.api.ProdutoAPI;
+package com.produtos.xp.api.produtoapi;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.boot.SpringApplication;

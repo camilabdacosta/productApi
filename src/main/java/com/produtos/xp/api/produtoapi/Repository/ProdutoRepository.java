@@ -1,6 +1,6 @@
-package com.produtos.xp.api.ProdutoAPI.Repository;
+package com.produtos.xp.api.produtoapi.Repository;
 
-import com.produtos.xp.api.ProdutoAPI.Model.Produto;
+import com.produtos.xp.api.produtoapi.Model.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package com.produtos.xp.api.ProdutoAPI.Controller;
+package com.produtos.xp.api.produtoapi.Controller;
 
-import com.produtos.xp.api.ProdutoAPI.Service.ProdutoService;
+import com.produtos.xp.api.produtoapi.Service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

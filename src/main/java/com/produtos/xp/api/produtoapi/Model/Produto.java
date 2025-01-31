@@ -1,4 +1,4 @@
-package com.produtos.xp.api.ProdutoAPI.Model;
+package com.produtos.xp.api.produtoapi.Model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

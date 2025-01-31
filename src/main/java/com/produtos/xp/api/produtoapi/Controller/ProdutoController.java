@@ -1,7 +1,7 @@
-package com.produtos.xp.api.ProdutoAPI.Controller;
+package com.produtos.xp.api.produtoapi.Controller;
 
-import com.produtos.xp.api.ProdutoAPI.Model.Produto;
-import com.produtos.xp.api.ProdutoAPI.Service.ProdutoService;
+import com.produtos.xp.api.produtoapi.Model.Produto;
+import com.produtos.xp.api.produtoapi.Service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
