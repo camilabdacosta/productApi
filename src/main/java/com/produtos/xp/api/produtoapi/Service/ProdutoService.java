@@ -34,4 +34,12 @@ public class ProdutoService {
         return produtoRepository.count();
     }
 
+
+    public Produto atualizarProduto(Long id, Produto novoProduto) {
+        return produtoRepository.findById(id).map(produto -> {
+            produto.setNome(novoProduto.getNome());
+            produto.setDescricao(novoProduto.getDescricao());
+            return produtoRepository.save(produto);
+        }).orElseThrow(() -> new RuntimeException("Produto não encontrado!"));
+    }
 }
