@@ -2,6 +2,26 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Lista de Produtos</title>
+    <style>
+        .table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 100% da altura da tela */
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%; /* Define a largura da tabela */
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
 </head>
 <body>
 <h2>Lista de Produtos</h2>
